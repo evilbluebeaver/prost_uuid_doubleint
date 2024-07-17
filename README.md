@@ -5,7 +5,7 @@ Custom uuid type for using in protobuf .proto files.
 Represents uuid as 2 u64 integers.
 
 
-[![Rust](https://github.com/evilbluebeaver/prost-uuid-doubleint/actions/workflows/rust.yml/badge.svg)](https://github.com/evilbluebeaver/prost-uuid-doubleint/actions/workflows/rust.yml)
+[![Rust](https://github.com/evilbluebeaver/prost_uuid_doubleint/actions/workflows/rust.yml/badge.svg)](https://github.com/evilbluebeaver/prost_uuid_doubleint/actions/workflows/rust.yml)
 [![Crates.io](https://img.shields.io/crates/v/prost-uuid-doubleint)](https://crates.io/crates/prost-uuid-doubleint)
 
 
