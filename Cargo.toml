@@ -1,6 +1,6 @@
 [package]
 name = "prost-uuid-doubleint"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 description = "Prost uuid custom datatype"
 authors = ["Kirill Kindiuk <evilbluebeaver@gmail.com>"]
@@ -9,6 +9,6 @@ repository = "https://github.com/evilbluebeaver/prost_uuid_doubleint"
 keywords = ["prost", "uuid", "protobuf"]
 
 [dependencies]
-derive_more = "0.99"
-prost = "0.13"
-uuid = "1.10"
+derive_more = {version="2.0", features = ["full"]}
+prost = "0.14"
+uuid = "1.18"
