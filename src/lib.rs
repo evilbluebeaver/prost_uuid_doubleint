@@ -9,7 +9,20 @@ const HIGH_TAG: u32 = 1;
 const LOW_TAG: u32 = 2;
 
 #[derive(
-    Clone, Copy, AsRef, AsMut, Deref, DerefMut, From, Into, Constructor, Debug, Default, PartialEq,
+    Clone,
+    Copy,
+    AsRef,
+    AsMut,
+    Deref,
+    DerefMut,
+    From,
+    Into,
+    Constructor,
+    Debug,
+    Default,
+    PartialEq,
+    Eq,
+    Hash,
 )]
 pub struct ProstUuid(Uuid);
 
